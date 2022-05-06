@@ -1,10 +1,10 @@
 module.exports = {
   arrowParens: 'avoid',
-  bracketSameLine: true,
+  bracketSameLine: false,
   // bracketSpacing: false,
   singleQuote: true,
   trailingComma: 'all',
-  "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
-  "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true,
+  importOrder: ['^@core/(.*)$', '^@server/(.*)$', '^@ui/(.*)$', '^[./]'],
+  importOrderSeparation: true,
+  importOrderSortSpecifiers: true,
 };
